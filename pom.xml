@@ -15,6 +15,9 @@
 
 	<properties>
 		<java.version>17</java.version>
+		<sonar.projectkey>xiomara-udea_lab2026v</sonar.projectkey>
+		<sonar.organization>xiomara-udea</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 
