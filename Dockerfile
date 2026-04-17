@@ -1,4 +1,5 @@
-FROM openjdk:11-ea-19-jre-slim
+FROM eclipse-temurin:17-jdk-jammy
 EXPOSE 8080
-ADD target/lab2026v.jar faker.jar
+ADD target/lab2026v.jar lab2026v.jar
 ENTRYPOINT ["java","-jar","/lab2026v.jar"]
+
