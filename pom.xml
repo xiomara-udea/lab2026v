@@ -67,6 +67,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>lab2026v</finalName>
 	</build>
 
 </project>
